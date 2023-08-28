@@ -1,0 +1,16 @@
+@import "Styles/Global/global";
+
+body {
+  margin: 4.86vw 9.72vw;
+  font-size: $font-size;
+  font-family: $font-family;
+  font-weight: $font-weight-light;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 420px) {
+  body {
+    margin: 8vw 4vw;
+  }
+}

@@ -1,0 +1,78 @@
+@import "../Global/global";
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  background: $Very-dark-blue;
+  color: white;
+  box-sizing: border-box;
+  padding: 0px 1.38vw;
+  width: 40%;
+
+  h1,
+  h2,
+  p {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2.77vw;
+    margin-top: 1.5vw;
+    color: $Soft-orange;
+  }
+
+  .list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9vw;
+    border-bottom: solid 0.2px $Grayish-blue;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    h2 {
+      font-size: 1.4vw;
+      color: $Off-white;
+
+      &:hover {
+        cursor: pointer;
+        color: $Soft-orange;
+      }
+    }
+
+    p {
+      font-size: 1.1vw;
+      padding-bottom: 2vw;
+      line-height: 1.7;
+
+      color: $Grayish-blue;
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .article {
+    width: 100%;
+    padding: 2vw 5vw;
+    gap: 8vw;
+
+    h1 {
+      font-size: 9vw;
+    }
+
+    .list-item {
+      gap: 2vw;
+      padding-bottom: 4vw;
+
+      h2 {
+        font-size: 5.2vw;
+      }
+
+      p {
+        font-size: 4.4vw;
+      }
+    }
+  }
+}

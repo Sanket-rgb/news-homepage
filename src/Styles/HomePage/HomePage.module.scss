@@ -1,0 +1,17 @@
+.section {
+  display: flex;
+  flex-direction: column;
+
+  gap: 3.47vw;
+}
+
+.article {
+  display: flex;
+  gap: 2.08vw;
+}
+
+@media screen and (max-width: 420px) {
+  .article {
+    flex-direction: column;
+  }
+}
