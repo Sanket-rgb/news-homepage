@@ -43,15 +43,11 @@ Users should be able to:
 - SCSS
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [SASS] (https://sass-lang.com) - CSS preprocessor
+- [SASS](https://sass-lang.com) - CSS preprocessor
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-1. I learned how to import global css variables when using CSS modules.
+- Import global CSS variables using CSS modules and SASS.
 
 <!-- Declare Global variables -->
 
@@ -70,7 +66,7 @@ $secondary-color: #bbbbb;
 }
 ```
 
-2. I learned how to get window inner width.
+- Get WindowInnerWidth.
 
 ```js
 const getWindowInnerWidth = () => {
@@ -78,11 +74,11 @@ const getWindowInnerWidth = () => {
 };
 ```
 
-3. I learned to write clean and DRY code.
+- Write clean and DRY code.
 
 ### Continued development
 
-I am looking forward to implement following features:
+I am looking forward to implement the following features:
 
 1. Integrate news fetching API such as Google News API.
 2. Build further upon Single-Page-Application using react-router-dom.
@@ -97,4 +93,4 @@ I am looking forward to implement following features:
 - Website - [Sanket Koli](https://www.your-site.com)
 - Frontend Mentor - [@Sanket-rgb](https://www.frontendmentor.io/profile/Sanket-rgb)
 - LinkedIn - [@sanketkoli007](https://www.linkedin.com/in/sanketkoli007/)
-- GitHub - [@Sanket-rgb] (https://github.com/Sanket-rgb)
+- GitHub - [@Sanket-rgb](https://github.com/Sanket-rgb)
